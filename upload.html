@@ -26,8 +26,8 @@
 <meta property="og:site_name" content="Zenith">
 <meta property="og:description" content="上传文件                   &#x2F;* 使表单内容居中 *&#x2F;         .h2{             font-size: 0px;         }          #uploadForm {             display: flex;             flex-direction: column;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-03-02T06:58:03.078Z">
-<meta property="article:modified_time" content="2025-03-02T06:58:03.078Z">
+<meta property="article:published_time" content="2025-03-02T11:22:16.112Z">
+<meta property="article:modified_time" content="2025-03-02T11:22:16.112Z">
 <meta property="article:author" content="Zenith">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -345,8 +345,8 @@
             reader.onload = function(e) {
                 const content = e.target.result;
                 const filename = file.name;
-                const repo = ''; // 替换为你的 GitHub 仓库
-                const token = ''; // 替换为你的 GitHub Token
+                const repo = ''; 
+                const token = ''; 
 
                 fetch(`https://api.github.com/repos/${repo}/contents/${filename}`, {
                     method: 'PUT',
